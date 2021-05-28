@@ -2,7 +2,7 @@
  * @Author: 616749285@qq.com
  * @Date: 2021-05-28 15:47:04
  * @LastEditors: 616749285@qq.com
- * @LastEditTime: 2021-05-28 16:45:23
+ * @LastEditTime: 2021-05-28 16:54:29
  * @Description:  树相关的方法
  */
 
@@ -43,7 +43,7 @@ const array2Tree = ({
         item.checked = false
       }
       if (processItem) {
-        Object.assign(item, processItem(item))
+        Object.assign(item, processItem(item, temp))
       }
     }
   })
