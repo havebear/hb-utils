@@ -2,7 +2,7 @@
  * @Author: 616749285@qq.com
  * @Date: 2021-05-25 10:56:31
  * @LastEditors: 616749285@qq.com
- * @LastEditTime: 2021-05-25 23:01:32
+ * @LastEditTime: 2021-11-26 15:17:52
  * @Description:  时间相关函数库，主要使用了moment.js，官网地址http://momentjs.cn/docs，建议阅读底部注释内容
  */
 
@@ -76,7 +76,7 @@
  export const formatDate = ({ date, format = FORMAT_TIME, placeholder = '' } = {}) => {
    const _date = moment(date)
    /** 有效时间 */
-   if (isValidTime(_date)) {
+   if (!isValidTime(_date)) {
      return _date.format(format)
    }
    /** 无效时间，则返回空指定字符串 */
