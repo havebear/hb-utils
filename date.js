@@ -2,7 +2,7 @@
  * @Author: BGG
  * @Date: 2021-05-25 10:56:31
  * @LastEditors: BGG
- * @LastEditTime: 2021-12-08 19:17:35
+ * @LastEditTime: 2021-12-08 19:37:36
  * @Description:  时间相关函数库，主要使用了moment.js，官网地址http://momentjs.cn/docs，建议阅读底部注释内容
  */
 
