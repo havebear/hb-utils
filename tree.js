@@ -2,7 +2,7 @@
  * @Author: BGG
  * @Date: 2021-05-28 15:47:04
  * @LastEditors: BGG
- * @LastEditTime: 2021-05-28 16:54:29
+ * @LastEditTime: 2022-04-22 17:45:31
  * @Description:  树相关的方法
  */
 
@@ -72,7 +72,7 @@ const tree2Array = (tree = [], key = 'children') => {
 }
 
 /**
- * 根据属性差找树节点
+ * 根据属性查找树节点
  * @param {array} data 树结构数据
  * @param {string} key 查找属性键值
  * @param {string} value 差找属性值
